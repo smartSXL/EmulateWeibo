@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MessageViewController.h
 //  EmulateWeibo
 //
 //  Created by 001号 on 16/3/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MessageViewController : UITableViewController
 
 @end
-
