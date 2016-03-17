@@ -6,10 +6,10 @@
 //  Copyright © 2016年 001号. All rights reserved.
 //
 
-#ifndef EmulateWeiboPrefix_pch
-#define EmulateWeiboPrefix_pch
+#ifdef __OBJC__
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
 
-#endif /* EmulateWeiboPrefix_pch */
+#pragma mark - 常用函数
+
+#endif
