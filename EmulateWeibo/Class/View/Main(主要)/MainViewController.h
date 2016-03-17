@@ -2,12 +2,12 @@
 //  MainViewController.h
 //  EmulateWeibo
 //
-//  Created by 001号 on 16/3/16.
+//  Created by 001号 on 16/3/17.
 //  Copyright © 2016年 001号. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UITableViewController
+@interface MainViewController : UITabBarController
 
 @end

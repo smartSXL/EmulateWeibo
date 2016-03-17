@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353EF3891C9A43B600304974 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353EF3881C9A43B600304974 /* MainViewController.m */; };
 		3542B6DC1C994D2E00716C18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3542B6DB1C994D2E00716C18 /* main.m */; };
 		3542B6DF1C994D2E00716C18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3542B6DE1C994D2E00716C18 /* AppDelegate.m */; };
 		3542B6E71C994D2E00716C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3542B6E61C994D2E00716C18 /* Assets.xcassets */; };
 		3542B7051C996C0D00716C18 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3542B7041C996C0D00716C18 /* DiscoverViewController.m */; };
 		3542B7081C996C2000716C18 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3542B7071C996C2000716C18 /* HomeViewController.m */; };
-		3542B70B1C996C3500716C18 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3542B70A1C996C3500716C18 /* MainViewController.m */; };
 		3542B70E1C996C4B00716C18 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3542B70D1C996C4B00716C18 /* MessageViewController.m */; };
 		3542B7111C996C5E00716C18 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3542B7101C996C5E00716C18 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		353EF3871C9A43B600304974 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		353EF3881C9A43B600304974 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		3542B6D71C994D2E00716C18 /* EmulateWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmulateWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3542B6DB1C994D2E00716C18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3542B6DD1C994D2E00716C18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3542B6DE1C994D2E00716C18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3542B6E61C994D2E00716C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3542B6E61C994D2E00716C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = EmulateWeibo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		3542B6EB1C994D2E00716C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3542B6F11C994FC200716C18 /* EmulateWeiboPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmulateWeiboPrefix.pch; sourceTree = SOURCE_ROOT; };
 		3542B7031C996C0D00716C18 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
 		3542B7041C996C0D00716C18 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		3542B7061C996C2000716C18 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		3542B7071C996C2000716C18 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		3542B7091C996C3500716C18 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		3542B70A1C996C3500716C18 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		3542B70C1C996C4B00716C18 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
 		3542B70D1C996C4B00716C18 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		3542B70F1C996C5E00716C18 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
@@ -130,8 +130,8 @@
 		3542B6FD1C996B3400716C18 /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
-				3542B7091C996C3500716C18 /* MainViewController.h */,
-				3542B70A1C996C3500716C18 /* MainViewController.m */,
+				353EF3871C9A43B600304974 /* MainViewController.h */,
+				353EF3881C9A43B600304974 /* MainViewController.m */,
 			);
 			path = "Main(主要)";
 			sourceTree = "<group>";
@@ -247,8 +247,8 @@
 				3542B6DF1C994D2E00716C18 /* AppDelegate.m in Sources */,
 				3542B7051C996C0D00716C18 /* DiscoverViewController.m in Sources */,
 				3542B6DC1C994D2E00716C18 /* main.m in Sources */,
+				353EF3891C9A43B600304974 /* MainViewController.m in Sources */,
 				3542B7111C996C5E00716C18 /* ProfileViewController.m in Sources */,
-				3542B70B1C996C3500716C18 /* MainViewController.m in Sources */,
 				3542B7081C996C2000716C18 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,16 +342,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Longxin Guo (YP4KPFL5N7)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Longxin Guo (YP4KPFL5N7)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/001a/Desktop/代码/EmulateWeibo/EmulateWeiboPrefix.pch";
 				INFOPLIST_FILE = EmulateWeibo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.EmulateWeibo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "3491233b-0160-41e2-b5c3-fd12fcc79da6";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,13 +361,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/001a/Desktop/代码/EmulateWeibo/EmulateWeiboPrefix.pch";
 				INFOPLIST_FILE = EmulateWeibo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.EmulateWeibo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -388,6 +392,7 @@
 				3542B6F01C994D2E00716C18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
