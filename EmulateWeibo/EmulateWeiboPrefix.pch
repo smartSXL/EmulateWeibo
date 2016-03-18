@@ -1,0 +1,15 @@
+//
+//  EmulateWeiboPrefix.pch
+//  EmulateWeibo
+//
+//  Created by 001号 on 16/3/16.
+//  Copyright © 2016年 001号. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+
+#pragma mark - 常用函数
+
+#endif
